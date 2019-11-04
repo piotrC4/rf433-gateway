@@ -7,8 +7,6 @@
 #include <RCSwitch.h>
 #include <EEPROM.h>
 
-// #define NODE_FIRMWARE "rf433-transceiver"
-// #define NODE_VERSION "0.04"
 #define PIN_TRANSMITER D0
 #define PIN_RESET 4
 #define PIN_RECEIVER D5
@@ -206,7 +204,7 @@ void setupHandler()
  */
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(CUST_SERIAL_SPEED);
 
 
   if (SPIFFS.begin())
