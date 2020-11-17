@@ -15,7 +15,7 @@
 
 ### 1. Clone the Repository into VS Code
 
-In VS Code press F1 enter ''git: clone'' + Enter and insert link to my repository (https://github.com/enc-X/rf433-gateway)
+In VS Code press F1 enter ''git: clone'' + Enter and insert link to my repository (https://github.com/piotrC4/rf433-gateway)
 
 ### 2. Build binary file
 
